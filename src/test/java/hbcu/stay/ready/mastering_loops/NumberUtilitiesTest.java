@@ -1,14 +1,13 @@
-package hbcu.stay.ready.mastering_loops;
-
-import org.junit.Assert;
+package io.codedifferently;
 import org.junit.Test;
-
-public class NumberUtilitiesTest {
+import org.junit.Assert;
+public class NumberUtilTest {
+    
     @Test
     public void testGetRange1A() {
         // : Given
         String expected = "0123456789";
-        int stop = 11;
+        int stop = 10; 
 
         // : When
         String actual = NumberUtilities.getRange(stop);
@@ -42,6 +41,11 @@ public class NumberUtilitiesTest {
         // : Then
         Assert.assertEquals(expected, actual);
     }
+
+
+
+
+    
 
 
 
